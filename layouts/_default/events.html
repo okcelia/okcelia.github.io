@@ -1,0 +1,29 @@
+{{ define "main" }}
+<h2>{{ .Title }}</h2>
+
+<div class="events-layout">
+
+  <aside class="events-sidebar">
+    <h3>Upcoming Events</h3>
+    <ul>
+      {{ range sort .Site.Data.events "date" }}
+      <li>
+        <strong>{{ .date }}</strong><br>
+        {{ .title }}<br>
+        <small>{{ .time }} — {{ .location }}</small>
+      </li>
+      {{ end }}
+    </ul>
+  </aside>
+
+  <div id="calendar" class="events-calendar"></div>
+
+</div>
+
+<script id="events-data" type="application/json">
+  {{ .Site.Data.events | jsonify }}
+</script>
+{{ $calendarJS := resources.Get "js/calendar.js" }}
+<script src="{{ $calendarJS.RelPermalink }}"></script>
+
+{{ end }}
