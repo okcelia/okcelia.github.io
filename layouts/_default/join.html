@@ -1,8 +1,43 @@
 {{ define "main" }}
 <h2>{{ .Title }}</h2>
-<p>Fill out the form below to join the Physics Club!</p>
+<p>Fill out the form below to join the Physics Club! This subscribes you to the club and adds you to our newsletter list.</p>
 
 <div class="form-embed">
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSer0NmHzUKGomBd5tJPxseOlMcALrbNORm4KGzDBSmdxYW6XQ/viewform?embedded=true" width="100%" height="1225" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLSer0NmHzUKGomBd5tJPxseOlMcALrbNORm4KGzDBSmdxYW6XQ/formResponse" method="POST" target="hidden_iframe" id="join-form" class="join-form">
+
+    <label for="emailAddress">Email *</label>
+    <input type="email" name="emailAddress" id="emailAddress" required>
+
+    <label for="entry.2005620554">First &amp; Last Name *</label>
+    <input type="text" name="entry.2005620554" id="entry.2005620554" required>
+
+    <label for="entry.1065046570">CCSF Student ID *</label>
+    <input type="text" name="entry.1065046570" id="entry.1065046570" required>
+
+    <label for="entry.1166974658">Major *</label>
+    <input type="text" name="entry.1166974658" id="entry.1166974658" required>
+
+    <label class="checkbox-label">
+      <input type="checkbox" name="entry.1591811940" value="I have read, understood, and agree to follow the CCSF Physics Club rules and expectations." required>
+      I have read, understood, and agree to follow the CCSF Physics Club rules and expectations. *
+    </label>
+
+    <label for="entry.839337160">Comments/Questions?</label>
+    <textarea name="entry.839337160" id="entry.839337160" rows="3"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(window.formSubmitted){document.getElementById('join-form').style.display='none';document.getElementById('thank-you').style.display='block';}"></iframe>
+
+  <div id="thank-you" style="display:none;">
+    <p>Thanks for joining! We've received your info.</p>
+  </div>
 </div>
+
+<script>
+document.getElementById('join-form').addEventListener('submit', function() {
+  window.formSubmitted = true;
+});
+</script>
 {{ end }}
