@@ -1,4 +1,8 @@
-const events = JSON.parse(document.getElementById('events-data').textContent);
+let events = JSON.parse(document.getElementById('events-data').textContent);
+if (typeof events === 'string') {
+  events = JSON.parse(events);
+}
+
 const calendarEl = document.getElementById('calendar');
 
 const eventsByDate = {};
