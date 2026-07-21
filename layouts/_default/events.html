@@ -3,6 +3,8 @@
 
 <div class="events-layout">
 
+  <div id="calendar" class="events-calendar"></div>
+
   <aside class="events-sidebar">
     <h3>Upcoming Events</h3>
     <ul>
@@ -10,13 +12,11 @@
       <li>
         <strong>{{ .date }}</strong><br>
         {{ .title }}<br>
-        <small>{{ .time }} — {{ .location }}</small>
+        <small>{{ .time }} &mdash; {{ .location }}</small>
       </li>
       {{ end }}
     </ul>
   </aside>
-
-  <div id="calendar" class="events-calendar"></div>
 
 </div>
 
