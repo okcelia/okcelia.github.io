@@ -2,8 +2,14 @@
 title: "Club And Discord Server Rules"
 ---
 
-1. Be respectful to all members. We are committed to maintaining a safe and healthy learning environment for students. All club members should engage in activities that contribute toward this end. Student behavior that is not consistent with standards set by the official Physics Club rules and CCSF Student Code of Conduct will impose appropriate consequences.
-2. Physics Club members shall not discriminate against any person on the basis of race or ethnicity (including color, caste, and ancestry), religion (or religious creed), nationality, age, medical condition, gender identity, gender expression, sexual orientation, or disability (physical or mental).
-3. To avoid spreading misinformation, please refrain from making broad statements when discussing topics; speak from your personal experience and use citations when possible.
-4. Try to assume the best; Ask for clarity if something doesn’t make sense, and keep discussions in good faith. 
-5. ...
+1) **There is no tolerance for discrimination or harassment.** CCSF Physics Club is an inclusive community of students and faculty of diverse backgrounds. Racism, anti-Blackness, xenophobia, misogyny, homophobia, transphobia, and/or classicism is unacceptable and will result in an immediate dismissal from the club. 
+
+2) **Refrain from making broad statements or generalizations to avoid the spread of misinformation.** We ask that you speak from your personal experiences and use citations when possible.
+
+3) **Keep all conversation school-appropriate, there shall be no content that is sexually explicit or expresses harm.** This is defined by pornographic or violentimagery as well as graphic language. Use best judgment when speaking with peers, club officers, faculty, and administration. Club officers and faculty are liable for behaviors that go against CCSF standards for student conduct.   
+
+4) **Share thoughtful feedback and give your peers the benefit of the doubt in discussion.** Assume the best of fellow students, ask for clarifications, and keep discussions in good faith. 
+
+5) **No use or promotion of generative AI tools.** Using these falls under academic and intellectual dishonesty. Any screenshots using AI tools (such as ChatGPT) or messages encouraging others will either be deleted or will be met with a warning. 
+
+6) **Discord Nitro features are prohibited.** To keep the server equitable, toggle off functions that require Nitro membership. 
