@@ -155,3 +155,41 @@ ol, ul {
 li {
   margin-bottom: 0.5rem;
 }
+
+.newsletter {
+  margin-top: 2rem;
+  border: 3px solid #111111;
+  padding: 1.5rem;
+  background: #f0f0f0;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  min-width: 200px;
+  font-family: 'VT323', monospace;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border: 2px solid #111111;
+  background: #ffffff;
+}
+
+.newsletter-form button {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.7rem;
+  background: #111111;
+  color: #ffffff;
+  border: none;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background: #2255cc;
+}
