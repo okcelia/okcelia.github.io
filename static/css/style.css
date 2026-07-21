@@ -183,13 +183,14 @@ li {
 .newsletter-form button {
   font-family: 'Press Start 2P', monospace;
   font-size: 0.7rem;
-  background: #111111;
-  color: #ffffff;
-  border: none;
+  background: #ffffff;
+  color: #111111;
+  border: 2px solid #111111;
   padding: 0.7rem 1rem;
   cursor: pointer;
 }
 
 .newsletter-form button:hover {
-  background: #2255cc;
+  background: #111111;
+  color: #ffffff;
 }
