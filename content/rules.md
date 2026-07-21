@@ -6,7 +6,7 @@ title: "Club And Discord Server Rules"
 
 2) **Refrain from making broad statements or generalizations to avoid the spread of misinformation.** We ask that you speak from your personal experiences and use citations when possible.
 
-3) **Keep all conversation school-appropriate, there shall be no content that is sexually explicit or expresses harm.** This is defined by pornographic or violentimagery as well as graphic language. Use best judgment when speaking with peers, club officers, faculty, and administration. Club officers and faculty are liable for behaviors that go against CCSF standards for student conduct.   
+3) **Keep all conversation school-appropriate, there shall be no content that is sexually explicit or expresses harm.** This is defined by pornographic or violent imagery as well as graphic language. Use best judgment when speaking with peers, club officers, faculty, and administration. Club officers and faculty are liable for behaviors that go against CCSF standards for student conduct.   
 
 4) **Share thoughtful feedback and give your peers the benefit of the doubt in discussion.** Assume the best of fellow students, ask for clarifications, and keep discussions in good faith. 
 
