@@ -6,19 +6,19 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
 
   <header>
     <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
-<nav>
-  <a href="{{ "/" | relURL }}">Home</a>
-  <a href="{{ "/rules/" | relURL }}">Rules</a>
-  <a href="{{ "/events/" | relURL }}">Events</a>
-  <a href="{{ "/join/" | relURL }}">Join</a>
-</nav>
+    <nav class="nav-grid">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/rules/" | relURL }}">Rules</a>
+      <a href="{{ "/events/" | relURL }}">Events</a>
+      <a href="{{ "/join/" | relURL }}">Join</a>
+    </nav>
   </header>
 
   <main>
